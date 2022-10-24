@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: #1C1C1C;
+    min-height: 100vh;
+}
+.apple_watch {
+    position: absolute;
+}
+h1 {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 140px;
+    line-height: 77px;
+    letter-spacing: -0.02em;
+    padding-top: 32%;
+    padding-left: 5%;
+
+}
+h1 b{
+    color: #FF0000;
+}
+.General p{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: -0.02em;
+    font-size: 50px;
+    padding-top: 1%;
+    padding-left: 4%;
+}
+.apple_news {
+    position: absolute;
+    top: 0;
+    left: 35%;
+}
+.apple_news1 {
+    position: absolute;
+    padding-top: 15%;
+}
+.apple_news2 {
+    position: relative;
+    margin-left: 100%;
+}
+.home_icon {
+    position: absolute;
+    margin-left: 280%;
+    margin-top: -65%;
+}
+.apple_news3 {
+    position: absolute;
+    padding-left: 90%;
+    padding-top: 40%;
+}
+.apple_news4 {
+    position: absolute;
+    padding-left: 190%;
+    margin-top: -10%;
+}
+main{
+    min-height: 100vh;
+    background-color: #1C1C1C;
+    font-family: 'Inter', sans-serif;
+}
+.info1{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    padding-top: 18%;
+}
+h2 {
+    color: white;
+    font-size: 75px;
+}
+.liztruss{
+    height: 200px;
+}
