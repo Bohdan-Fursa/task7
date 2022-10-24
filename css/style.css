@@ -8,7 +8,13 @@ header {
     min-height: 100vh;
 }
 .apple_watch {
+    height: 900px;
+}
+.header_text {
     position: absolute;
+    width: 45%;
+    top: 0;
+    padding-top: 23%;
 }
 h1 {
     color: white;
@@ -22,14 +28,6 @@ h1 {
 }
 h1 b{
     color: #FF0000;
-}
-.General p{
-    color: white;
-    font-family: 'Inter', sans-serif;
-    letter-spacing: -0.02em;
-    font-size: 50px;
-    padding-top: 1%;
-    padding-left: 4%;
 }
 .apple_news {
     position: absolute;
@@ -46,7 +44,6 @@ h1 b{
 }
 .home_icon {
     position: absolute;
-    margin-left: 280%;
     margin-top: -65%;
 }
 .apple_news3 {
@@ -56,7 +53,6 @@ h1 b{
 }
 .apple_news4 {
     position: absolute;
-    padding-left: 190%;
     margin-top: -10%;
 }
 main{
