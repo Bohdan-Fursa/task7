@@ -10,15 +10,16 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
     <header>
         <menu>
             <span class="title"><b class="title_U">U</b><b class="title_A">A</b>Kino</span>
             <div class="navbar">
-                <a href="#">Films</a>
-                <a href="#">Tv</a>
-                <a href="#">About Us</a>
+                <a href="#movies">Movies</a>
+                <a href="#tv">TV</a>
+                <a href="#footer">About Us</a>
             </div>
         </menu>
     </header>
@@ -26,13 +27,13 @@
         <div class="general_galaxy">
             <img class="galaxy_banner" src="img/galaxy_banner.jpg">
             <div class="general_text">
-                <h1>Вартові галактики</h1>
-                <div class="general_span">
+                <h1 class="animate__animated animate__backInLeft">Вартові галактики</h1>
+                <div class="general_span animate__animated animate__backInLeft">
                     <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate pariatur saepe ut! Nulla corporis facere ipsum quasi et. Iusto, reiciendis?</span>
                 </div>
-                <a class="button_watch" href="#">Дивитись</a>
+                <a class="button_watch animate__animated animate__backInLeft" href="#">Дивитись</a>
         </div>
-        <div class="movies">
+        <div class="movies" id="movies">
             <h2 data-aos="fade-up-right">Trending Movies</h2>
                 <div class="blocks1" data-aos="fade-right">
                     <div class="block1">
@@ -109,7 +110,7 @@
                     </div>
                 </div>
         </div>
-        <div class="tv">
+        <div class="tv" id="tv">
             <h3 data-aos="fade-up-right">Trending TVs</h3>
             <div class="blocks3" data-aos="fade-right">
                 <div class="block1">
@@ -187,7 +188,7 @@
             </div>
         </div> 
     </main>
-    <footer>
+    <footer id="footer">
         <div class="footer_text">
             <h4><b class="title_U">U</b><b class="title_A">A</b>Kino</h4>
             <p>© 2022</p>
