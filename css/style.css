@@ -2,71 +2,216 @@
 *{
     padding: 0;
     margin: 0;
-}
-header {
-    background-color: #1C1C1C;
-    min-height: 100vh;
-}
-.apple_watch {
-    width: 800px;
-}
-.header_text {
-    position: absolute;
-    top: 0;
-    padding-top: 27%;
-    padding-left: 4%;
-}
-h1 {
-    color: white;
+    scroll-behavior: smooth;
     font-family: 'Inter', sans-serif;
-    font-size: 140px;
-    line-height: 77px;
-    letter-spacing: -0.02em;
 }
-h1 b{
-    color: #FF0000;
+menu {
+    background-color: #1A1F38;
+    color: white;
+    padding: 20px;
 }
-.apple_news {
-    position: absolute;
-    top: 0;
-    left: 35%;
+.title{
+    font-size: 45px;
+    padding-left: 13%;
 }
-.apple_news1 {
-    position: absolute;
-    padding-top: 15%;
+.title{
+    color: white;
 }
-.apple_news2 {
+.title_U{
+    color: blue;
+}
+.title_A{
+    color: yellow;
+}
+menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    padding-left: 50px;
+    transition: all 1s;
+}
+menu a:hover{
+    color: gray;
+}
+.navbar {
+    display: inline;
+    margin-left: 37%;
+}
+.galaxy_banner{
     position: relative;
-    margin-left: 100%;
+    width: 100%;
 }
-.home_icon {
+.general_text{
     position: absolute;
-    margin-top: -65%;
-}
-.apple_news3 {
-    position: absolute;
-    padding-left: 90%;
-    padding-top: 40%;
-}
-.apple_news4 {
-    position: absolute;
-    margin-top: -10%;
-}
-main{
-    min-height: 100vh;
-    background-color: #1C1C1C;
-    font-family: 'Inter', sans-serif;
-}
-.info1{
-    display: flex;
-    width: 50%;
-    justify-content: center;
-    padding-top: 18%;
-}
-h2 {
+    top: 0;
     color: white;
-    font-size: 75px;
+    margin-top: 30%;
+    margin-left: 2%;
 }
-.liztruss{
-    height: 200px;
+.general_span{
+    width: 40%;
+    padding-top: 1%;
+    padding-left: 1%;
+    font-size: 15px;
+    text-align: center;
+}
+h1{
+    font-size: 80px;
+}
+.button_watch{
+    position: absolute;
+    text-decoration: none;
+    color: white;
+    background-color:red;
+    border-radius: 10%;
+    padding: 15px 40px;
+    margin-top: 3%;
+    margin-left: 16%;
+    transition: all 1s;
+}
+.button_watch:hover{
+    color: gray;
+    background-color: darkred;
+    padding: 25px 50px;
+}
+.movies{
+    background-color: black;
+    margin-top: -.5%;
+}
+h2{
+    color: white;
+    font-size: 48px;
+    padding-top: 7%;
+    padding-left: 5%;
+}
+.block1{
+    margin-top: 3%;
+    margin-left: 8%;
+    display: inline-block;
+}
+.block1 span{
+    margin-left: 2%;
+    font-size: 18px;
+    color: #B6B6B6;
+}
+.block1 p{
+    color: #828282;
+    font-size: 12px;
+    margin-top: 3%;
+    margin-left: .5%;
+}
+.block1_text{
+    margin-top: -1%;
+    background-color: #050E12;
+    border-radius: 5%;
+    padding: 20px;
+    width: 160px;
+}
+.banner1{
+    width: 200px;
+}
+.block2{
+    display: inline-block;
+    padding-left: 2%;
+}
+.banner2{
+    width: 200px;
+    height: 300px;
+}
+.block2_text{
+    margin-top: -1%;
+    background-color: #050E12;
+    border-radius: 5%;
+    padding: 20px;
+    width: 160px;
+}
+.block2_text span{
+    margin-left: 2%;
+    font-size: 18px;
+    color: #B6B6B6;
+}
+.block2_text p{
+    color: #828282;
+    font-size: 12px;
+    margin-top: 3%;
+    margin-left: .5%;
+}
+.block3{
+    display: inline-block;
+    padding-left: 2%;
+}
+.banner3{
+    width: 200px;
+    height: 300px;
+}
+.block3_text{
+    margin-top: -1%;
+    background-color: #050E12;
+    border-radius: 5%;
+    padding: 20px;
+    width: 160px;
+}
+.block3_text span{
+    margin-left: 2%;
+    font-size: 18px;
+    color: #B6B6B6;
+}
+.block3_text p{
+    color: #828282;
+    font-size: 12px;
+    margin-top: 3%;
+    margin-left: .5%;
+}
+.block4{
+    display: inline-block;
+    padding-left: 2%;
+}
+.banner4{
+    width: 200px;
+    height: 300px;
+}
+.block4_text{
+    margin-top: -10%;
+    background-color: #050E12;
+    border-radius: 5%;
+    padding: 18px;
+    width: 165px;
+}
+.block4_text span{
+    margin-left: 2%;
+    font-size: 18px;
+    color: #B6B6B6;
+}
+.block4_text p{
+    color: #828282;
+    font-size: 12px;
+    margin-top: 3%;
+    margin-left: .5%;
+}
+
+.block5{
+    display: inline-block;
+    padding-left: 2%;
+}
+.banner5{
+    width: 200px;
+    height: 300px;
+}
+.block5_text{
+    margin-top: -1%;
+    background-color: #050E12;
+    border-radius: 5%;
+    padding: 20px;
+    width: 160px;
+}
+.block5_text span{
+    margin-left: 2%;
+    font-size: 18px;
+    color: #B6B6B6;
+}
+.block5_text p{
+    color: #828282;
+    font-size: 12px;
+    margin-top: 3%;
+    margin-left: .5%;
 }
