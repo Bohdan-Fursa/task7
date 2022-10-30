@@ -6,6 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UaKino</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="Shortcut Icon" type="image/png" href="img/favicon.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
 </head>
 <body>
     <header>
@@ -29,8 +33,8 @@
                 <a class="button_watch" href="#">Дивитись</a>
         </div>
         <div class="movies">
-            <h2>Trending Movies</h2>
-                <div class="blocks">
+            <h2 data-aos="fade-up-right">Trending Movies</h2>
+                <div class="blocks1" data-aos="fade-right">
                     <div class="block1">
                         <img class="banner1" src="img/banner1.png" alt="bliss">
                         <div class="block1_text">
@@ -66,8 +70,137 @@
                             <p>2019</p>
                         </div>
                     </div>
+                </div>
+                <div class="blocks2" data-aos="fade-left">
+                    <div class="block1">
+                        <img class="banner1" src="img/banner6.png" alt="sniper">
+                        <div class="block1_text">
+                            <span>Снайпер: Білий ворон</span>
+                            <p>2022</p>
+                        </div>
+                    </div>
+                    <div class="block2">
+                        <img class="banner2" src="img/banner7.png">
+                        <div class="block2_text">
+                            <span>Сонік 2</span>
+                            <p>2022</p>
+                        </div>
+                    </div>
+                    <div class="block3">
+                        <img class="banner3" src="img/banner8.png" alt="banner8">
+                        <div class="block3_text">
+                            <span>Банші</span>
+                            <p>2022</p>
+                        </div>
+                    </div>
+                    <div class="block4">
+                        <img class="banner4" src="img/banner9.png" alt="banner9">
+                        <div class="block4_text">
+                            <span>Бладшот</span>
+                            <p>2020</p>
+                        </div>
+                    </div>
+                    <div class="block5">
+                        <img class="banner5" src="img/banner10.png" alt="banner10">
+                        <div class="block5_text">
+                            <span>Хмарочос</span>
+                            <p>2018</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="tv">
+            <h3 data-aos="fade-up-right">Trending TVs</h3>
+            <div class="blocks3" data-aos="fade-right">
+                <div class="block1">
+                    <img class="banner1" src="img/banner11.png" alt="banner11">
+                    <div class="block1_text">
+                        <span>Ванда Віжин</span>
+                        <p>2021</p>
+                    </div>
+                </div>
+                <div class="block2">
+                    <img class="banner2" src="img/banner12.png">
+                    <div class="block2_text">
+                        <span>The Equalizer</span>
+                        <p>2021</p>
+                    </div>
+                </div>
+                <div class="block3">
+                    <img class="banner3" src="img/banner13.png" alt="banner13">
+                    <div class="block3_text">
+                        <span>Атака титанів</span>
+                        <p>2020</p>
+                    </div>
+                </div>
+                <div class="block4">
+                    <img class="banner4" src="img/banner14.png" alt="banner14">
+                    <div class="block4_text">
+                        <span>Crime Scene...</span>
+                        <p>2020</p>
+                    </div>
+                </div>
+                <div class="block5">
+                    <img class="banner5" src="img/banner15.png" alt="banner15">
+                    <div class="block5_text">
+                        <span>Invisible City</span>
+                        <p>2021</p>
+                    </div>
+                </div>
+            </div>
+            <div class="blocks4" data-aos="fade-left">
+                <div class="block1">
+                    <img class="banner1" src="img/banner16.png" alt="banner16">
+                    <div class="block1_text">
+                        <span>Snowpiercer</span>
+                        <p>2021</p>
+                    </div>
+                </div>
+                <div class="block2">
+                    <img class="banner2" src="img/banner2.png">
+                    <div class="block2_text">
+                        <span>Тор: Любов і грім</span>
+                        <p>2022</p>
+                    </div>
+                </div>
+                <div class="block3">
+                    <img class="banner3" src="img/banner3.png" alt="banner3">
+                    <div class="block3_text">
+                        <span>Найманець</span>
+                        <p>2022</p>
+                    </div>
+                </div>
+                <div class="block4">
+                    <img class="banner4" src="img/banner4.png" alt="banner4">
+                    <div class="block4_text">
+                        <span>Вартові галактики</span>
+                        <p>2017</p>
+                    </div>
+                </div>
+                <div class="block5">
+                    <img class="banner5" src="img/banner5.png" alt="banner5">
+                    <div class="block5_text">
+                        <span>Чорнобиль</span>
+                        <p>2019</p>
+                    </div>
+                </div>
             </div>
         </div> 
     </main>
+    <footer>
+        <div class="footer_text">
+            <h4><b class="title_U">U</b><b class="title_A">A</b>Kino</h4>
+            <p>© 2022</p>
+            <p>Power by Bohdan Fursa</p>
+        </div>
+        <div class="icons">
+            <a href="https://www.instagram.com/bogdan_fursa/"><iconify-icon class="instagram_icon" icon="akar-icons:instagram-fill"></iconify-icon></a>
+            <a href="https://www.facebook.com/profile.php?id=100043089520533"><iconify-icon class="facebook_icon" icon="icomoon-free:facebook"></iconify-icon></a>
+            <a href="https://github.com/Bohdan-Fursa"><iconify-icon class="github_icon" icon="akar-icons:github-fill"></iconify-icon></a>
+        </div>
+    </footer>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
